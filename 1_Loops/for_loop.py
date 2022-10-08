@@ -86,20 +86,20 @@
 
 
 
-#   problem 2 
-s = 'geeksforgeeks'
-# Using for loop 
-for letter in s: 
+# #   problem 2 
+# s = 'geeksforgeeks'
+# # Using for loop 
+# for letter in s: 
     
-    print(letter) 
-    # break the loop as soon it sees 'e' 
-    # or 's' 
-    if letter == 'e' or letter == 's': 
-        continue
-    print("not skipped")
+#     print(letter) 
+#     # break the loop as soon it sees 'e' 
+#     # or 's' 
+#     if letter == 'e' or letter == 's': 
+#         continue
+#     print("not skipped")
     
-print("Out of for loop") 
-print() 
+# print("Out of for loop") 
+# print() 
 
 
 # output
@@ -131,3 +131,91 @@ print()
 # e
 # k 
 # s
+
+# FOR ELSE CONCEPT
+
+# for x in range(6):
+#   print(x)
+# else:
+#   print("Finally finished!")
+#   print("Still in loop !")
+
+# Note: The else block will NOT be executed if the loop is stopped by a break statement.
+# for x in range(6):
+#      if x == 3: break
+#      print(x)
+# else:
+#      print("Finally finished!")
+
+# Nested for LOOPS
+from msvcrt import open_osfhandle
+
+
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in adj:
+#   for y in fruits:
+#     print(x, y)
+
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+
+    
+# for x in range(5):
+#      print("*", end=" ")
+     
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+# print("*", end=" ")
+
+# for x in range(5):
+#      print("*", end=" ")
+
+# for x in range(5): #outer loop (row)
+#      for y in range(5): #inner loop (column)
+#           print("*", end=" ")
+#      print("\n") 
+     
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+
+print(True) # 1 or > 0
+print(False) #0
+x = True
+if 1-1:
+     print("always true")
+else: 
+     print("Will never run")
