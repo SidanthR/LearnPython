@@ -18,10 +18,14 @@ print(asc)
 
 def myupper(str):
     counter = 0
+    newStr = ""
     for letter in str: 
         x = ord(letter)
-        if x in [97,98,99,100,123]:
-                str[counter] = letter.upper()
+        if x in [97,98,99,100,101,102,103,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123]:
+                newStr += letter.upper()
+        else:
+                newStr += letter
         counter += 1
+    print(newStr)    
 
 myupper("Hello World");
