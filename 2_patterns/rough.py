@@ -13,9 +13,21 @@
 sp = 4
 st = 1
 for star in range(5):
+  
     for x in range(sp): print(" ", end=" ")
     for x in range(st): print("*", end= " ")
     sp -= 1;
     st += 1;
     print("")
 
+
+def sum(a, twop = 10,c = 0):
+    y = 10
+    return a + twop
+
+print (y)
+print( sum(twop = 5,a = 10) )
+print(10+ 10)
+print(1+ 10)
+print(5+ 10)
+print(5+ 10)
