@@ -4,12 +4,12 @@
 # print ("*")
 # print ("*")
 
-# for i in range(10):
-#     print ("*")
+for i in range(10):
+    print ("*")
 
-# for i in [0,1,2,3,4,5,6,7,8,9]:
-#     print ("i = : ", i)
-# x = 10 
+for i in [0,1,2,3,4,5,6,7,8,9]:
+    print ("i = : ", i)
+x = 10 
 
 # for times in [x]:
 #     print ( f'5 * {x} = {5 * x}' )

@@ -4,13 +4,13 @@ from ctypes.wintypes import LARGE_INTEGER
 
 b = "Hello, World!"
 # slice string_NAME[start:stop], excluding the stop
-print(b[2:5])
+print(b[2:5]) #llo
 
-print(b[:5])
+print(b[:5]) #Hello
 
-print(b[2:])
+print(b[2:]) #llo, World!
 
-print(b[-5:-2])
+print(b[-5:-2]) #orl
 
 asc = ord('a')
 print(asc)
@@ -24,7 +24,6 @@ def myupper(str):
                 newStr += letter.upper()
         else:
                 newStr += letter
-        print(newStr)    
     print(newStr)    
 
 myupper("Hello World");

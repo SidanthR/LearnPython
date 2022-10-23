@@ -1,12 +1,12 @@
 # range(start, stop, step)
 # start : starting point 
 # stop : stopping point (excluding the stop integer) OPTIONAL
-# step : iteration (+1, +2, +3) OPTIONAL
+# step : iteration (+1, +2, +3 , -1, -2) OPTIONAL
 
 # for x in range(10): #default start is 0, step is +1
 #     print(x)
 
-# for x in range(0, 10):
+# for x in range(4, 10):
 #     print(x)
 
 # for x in range(0, 10, 2):
