@@ -47,12 +47,16 @@ x = 10
 # # ----------
 
 # break example 
-# fruits = ["apple", "banana", "cherry", "lichi", "pineapple"]
+fruits = ["apple", "banana", "cherry", "lichi", "pineapple"]
 # for x in fruits:
 #   if x == "pineapple":
 #     break # get out of the loop
 #   print(x)
 
+if "pineappe"  in fruits:
+    print("found it")
+else:
+    print("not found")
 
 # # continue example 
 # fruits = ["apple", "banana", "cherry", "lichi", "pineapple"]
